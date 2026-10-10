@@ -48,15 +48,15 @@
 
 | 特性 | 说明 |
 | :--- | :--- |
-| 🔍 **完整 RAG 链路** | 查询重写（Query Rewriting）+ 向量检索（Pinecone）+ 多查询扩展（Multi-Query）|
-| 💬 **多轮会话记忆** | `MessageWindowChatMemory` 滑动窗口 + MongoDB 持久化，按 `memoryId` 隔离用户 |
-| 🧠 **上下文压缩** | 用小模型将历史对话摘要至 100 字内，避免超出上下文窗口 |
-| 🛠️ **Function Calling** | 三个内置工具：号源查询/预约、PDF 生成、联网搜索，由模型自主决策调用 |
-| ⚡ **流式输出** | 基于 `Flux<String>` + WebFlux 的增量返回，前端实时渲染 |
-| 🖼️ **OCR 知识入库** | 用 Tesseract 识别医院图片文字，与 Markdown 一起向量化入库 |
-| 📄 **PDF 生成** | iText 生成支持中文字体的 PDF（内置 STSongStd-Light）|
-| 🎨 **前端会话界面** | Vue 3 + Element Plus，支持流式打字效果、响应式布局、多会话切换 |
-| 📚 **接口文档** | 集成 Knife4j，启动后访问 `/doc.html` |
+|  **完整 RAG 链路** | 查询重写（Query Rewriting）+ 向量检索（Pinecone）+ 多查询扩展（Multi-Query）|
+|  **多轮会话记忆** | `MessageWindowChatMemory` 滑动窗口 + MongoDB 持久化，按 `memoryId` 隔离用户 |
+|  **上下文压缩** | 用小模型将历史对话摘要至 100 字内，避免超出上下文窗口 |
+|  **Function Calling** | 三个内置工具：号源查询/预约、PDF 生成、联网搜索，由模型自主决策调用 |
+|  **流式输出** | 基于 `Flux<String>` + WebFlux 的增量返回，前端实时渲染 |
+|  **OCR 知识入库** | 用 Tesseract 识别医院图片文字，与 Markdown 一起向量化入库 |
+|  **PDF 生成** | iText 生成支持中文字体的 PDF（内置 STSongStd-Light）|
+|  **前端会话界面** | Vue 3 + Element Plus，支持流式打字效果、响应式布局、多会话切换 |
+|  **接口文档** | 集成 Knife4j，启动后访问 `/doc.html` |
 
 ---
 
